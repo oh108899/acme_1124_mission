@@ -94,10 +94,24 @@ nav li:first-child span {
 
 .testimonial {
   position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.testimonial ul{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  left: 0;
+  display: flex;
+}
+.testimonial ul>li{
+  width: 100%;
+  flex:0 0 100%;
 }
 
 .testimonial blockquote {
-  width: 730px;
+  width: 100%;
   margin: 0 auto;
   font-style: italic;
   font-weight: 300;
