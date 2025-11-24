@@ -31,4 +31,3 @@ pbt.addEventListener('click',()=>{
   move(next);
 })
 
-// 아코디언
