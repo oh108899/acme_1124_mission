@@ -9,6 +9,13 @@ window.addEventListener('scroll',()=>{
     btt.classList.remove('active');
   }
 })
+btt.addEventListener('click',(e)=>{
+  e.preventDefault();
+  window.scrollTo({
+    top:0,
+    left:0,
+    behavior:'smooth'});
+})
 
 //슬라이드
 const tester = document.querySelector('.testimonial');
